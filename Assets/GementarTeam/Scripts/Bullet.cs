@@ -25,5 +25,6 @@ public class Bullet : MonoBehaviour
     public void SetForce(float force)
     {
         this.force = force;
+        Debug.Log("Something is happened here");
     }
 }
